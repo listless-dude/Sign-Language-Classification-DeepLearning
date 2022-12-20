@@ -1,2 +1,2 @@
-# Vision-Transformer-on-Sign-Language
-Using Vision Transformers to create a model for multiclass classfication on American Sign Language. Does it do better than CNNs?
+# Introduction
+Multiclass classification on ASL Dataset (Kaggle) using DeepLearning methods. So far used 3-skip Residual Deep CNNs (ResNET50) (not pretrained model), got good training and validation accuracy. And Used Vision Transformers (ViT). ViT model took significantly more time than DCNNs to train with large number of parameters. Overall after 5th epoch, DCNNs performed better. More aggresive testing will be done to check if they are overfitted.
